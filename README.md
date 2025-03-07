@@ -9,5 +9,7 @@
 
 
 ## Scripts
+
+### under processing_data
 - year_bmr.ipynb --> processes the IFS data so that the deaths/1000 from non communicative disease + respiratory infection of a country is applied evenly to every grid cell for that specific country. This generates BMR for each year.
 - 
