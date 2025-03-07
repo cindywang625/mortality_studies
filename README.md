@@ -21,12 +21,13 @@ NOTE: BMR is given as deaths/1000 so P= P/1000
 
 ### accessible elsewhere
 - ARISE data - monthly surface PM2.5 
-- [M]  mortality_all_new.csv -> https://drive.google.com/file/d/1zZ8HdAx9vBry7Ej8iLaxI__zxMdSp0W5/view?usp=sharing  --> contains the IFs total mortality for all countries -> RegionID values are countries in order, CohortID are age brackets.
+- mortality_all_new.csv -> https://drive.google.com/file/d/1zZ8HdAx9vBry7Ej8iLaxI__zxMdSp0W5/view?usp=sharing  --> contains the IFs total mortality for all countries -> RegionID values are countries in order, CohortID are age brackets.
 
 ## Processed data
 - pop_by_age_frac.nc --> ratio of the population for each age group to the total population for each country
 - [P]  2020_demo_frac.nc --> https://drive.google.com/file/d/1_llQjxOAc7pIFW6v_nsjtY4tYb4zoC3_/view?usp=sharing -->gets the total population for each age group for each grid cell
-- RR --> RR and AF from calculate_RR.ipynb
+- [AF] --> RR and AF from calculate_RR.ipynb --> 'RR_diff'
+- [BMR]  mortality rates processed from year_bmr.ipynb --> https://drive.google.com/drive/folders/1rs1-2fNaVJKCk9wt2NQB4kqkZ9w0InQE?usp=sharing
   
 ## Scripts
 
