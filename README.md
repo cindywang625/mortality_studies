@@ -36,5 +36,6 @@ NOTE: BMR is given as deaths/1000 so P= P/1000
 - check_demographic.ipynb --> calculates the ratio of the population for each age group to the total population for each country --> generates pop_by_age_frac
 - get_tot_pop.ipynb --> uses pop_by_age_frac and SEDAC 2020 population to get the total population for each age group for every grid cell
 - deaths_by_grid.ipynb --> calculates death for each grid cell
+- deaths_by_country.ipynb --> sums up death for each grid cell within country border and saves it as deaths per country.
 
 
