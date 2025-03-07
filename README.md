@@ -1,6 +1,6 @@
-# mortality_studies
+# Calculating mortality using PM2.5
 
-## Data needed
+## Input data
 - ARISE data - monthly surface PM2.5 
 - mortality_all_new.csv -> contains the IFs total mortality for all countries -> RegionID values are countries in order, CohortID are age brackets. Can be acessed here: https://drive.google.com/file/d/1Q9IRljRhL76RkOPDIqcKjkEJ0gifMsze/view?usp=sharing
 - population.xlsx = population dataset from SEDAC
