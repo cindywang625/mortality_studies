@@ -27,8 +27,10 @@ NOTE: BMR is given as deaths/1000 so P= P/1000
 - pop_by_age_frac.nc --> ratio of the population for each age group to the total population for each country
 - [P]  2020_demo_frac.nc --> https://drive.google.com/file/d/1_llQjxOAc7pIFW6v_nsjtY4tYb4zoC3_/view?usp=sharing -->gets the total population for each age group for each grid cell
 - [AF] --> RR and AF from calculate_RR.ipynb --> 'RR_diff'
-- [BMR]  mortality rates processed from year_bmr.ipynb --> https://drive.google.com/drive/folders/1rs1-2fNaVJKCk9wt2NQB4kqkZ9w0InQE?usp=sharing
-  
+- [BMR]  mortality rates processed from year_bmr.ipynb
+
+*** AF and BMR are big datasets and can be transferred from GLOBUS if needed
+
 ## Scripts
 
 ### under processing_data (kind of in order)
