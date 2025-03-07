@@ -4,11 +4,10 @@
 ### provided
 - ssp2_2020.nc = population dataset from SEDAC --> https://www.earthdata.nasa.gov/data/catalog/sedac-ciesin-sedac-gpwv4-natiden-r11-4.11#:~:text=Description,use%20in%20aggregating%20population%20data
 - gpw_v4_national_identifier_grid_rev11_15_min.shp = GPW data used to establish borders
-- mortality_all_new.csv -> contains the IFs total mortality for all countries -> RegionID values are countries in order, CohortID are age brackets. 
 
 ### accessible elsewhere
 - ARISE data - monthly surface PM2.5 
-
+- mortality_all_new.csv -> https://drive.google.com/file/d/1zZ8HdAx9vBry7Ej8iLaxI__zxMdSp0W5/view?usp=sharing  --> contains the IFs total mortality for all countries -> RegionID values are countries in order, CohortID are age brackets. 
 
 
 ## Scripts
