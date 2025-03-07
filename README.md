@@ -12,7 +12,9 @@
 
 ## Processed data
 - pop_by_age_frac.nc --> ratio of the population for each age group to the total population for each country
-- 2020_demo_frac.nc --> gets the total population for each age group for each grid cell
+- 2020_demo_frac.nc --> https://drive.google.com/file/d/1_llQjxOAc7pIFW6v_nsjtY4tYb4zoC3_/view?usp=sharing -->gets the total population for each age group for each grid cell
+
+  
 ## Scripts
 
 ### under processing_data
