@@ -9,6 +9,8 @@ M = BMR x P x AF
 - P = exposed population
 - AF = attributable factor
 
+NOTE: BMR is given as deaths/1000 so P= P/1000
+
 # Methodology 
 
 ## Input data
