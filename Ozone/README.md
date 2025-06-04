@@ -4,6 +4,19 @@ Calculate mortalities attributed to ozone from cardiovascular (Burnett et al., 2
 
 
 # Methodology 
+## Pre-process data --> get OSMDA8
+- Split data into years --> for y in {y1..y2}; do   x=5;   member=$(printf "%03d" $x);   input="/path_to_file";    next_year=$((y + 1));   output_dir="path_out_dir";   output="${output_dir}/name";    mkdir -p "$output_dir";   cdo -selyear,$y "$input" "$output"; done
+- Run IDL code to generate ozone_mda8_{year}.nc
+- Rename --> for year in {y1..y2}; do; input_file="ozone_mda8_${year}.nc"; output_file="ozone_mda8_${year}_rename.nc"; ncrename -d day,time -v Day,time "$input_file" "$output_file"; done
+- Convert to resolution of daily data --> for year in {y1..y2}; do; src="/parth/${year}.nc"; target="ozone_mda8_${year}_rename.nc"; ncks -A -v time "$src" "$target"; echo "✅ Added time variable to $target"; done
+- Calculate monthly mean --> for year in {y1..y2}; do; input_file="ozone_mda8_${year}_rename.nc"; output_file="ozone_mda8_${year}_monmean.nc"; cdo monmean "$input_file" "$output_file"; done
+- Concatenate --> cdo cat ozone_mda8_*_monmean.nc ozone_mda8_y1-y2_monmean.nc
+- Choose djmam of the last year and append it to the end --> for y in {1..num_of_years}; do      cdo seltimestep,$(( (y-1)*12+1 ))/$(( (y-1)*12+5 )) ozone_mda8_y1-y2_monmean.nc ozone_mda8_$(( 20y1+y-1 ))_jfmam.nc;  done
+- Copy and make empty monmean_padded that will be filled --> cp  ozone_mda8_y1-y2_monmean.nc ozone_mda8_y1-y2_monmean_padded.nc
+- fill monmean_padded --> cdo cat ozone_mda8_y2_jfmam.nc ozone_mda8_y1-y2_monmean_padded.nc
+- get 6 month averages --> commands in command.txt
+- run python code
+
 
 ## Input data
 ### provided
