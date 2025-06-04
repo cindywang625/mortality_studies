@@ -11,8 +11,5 @@ M = BMR x P x AF
 
 NOTE: BMR is given as deaths/1000 so P= P/1000
 
-For PM2.5, AF is calculated as follows following Burnett et al., 2018:
-
-AF = 1-$\frac{1}{RR}$; Where RR = exp^{\frac{\theta \times log(\frac{\text{C}}{\alpha+1})}{1+\exp ^{-\frac{\text{C}-\mu}{v}}}}
-
-For Ozone, AF is calculated using the AF from Sun et al., 2024 for cardiovascular diseases and Malashock et al., 2022 for respiratory diseases.
+* For PM2.5, AF is calculated as follows following Burnett et al., 2018:
+* For Ozone, AF is calculated using the AF from Sun et al., 2024 for cardiovascular diseases and Malashock et al., 2022 for respiratory diseases.
