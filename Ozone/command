@@ -1,0 +1,23 @@
+cdo timselmean,6,0,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_jfmamj.nc
+
+cdo timselmean,6,1,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_fmamjj.nc
+
+cdo timselmean,6,2,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_mamjja.nc
+
+cdo timselmean,6,3,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_amjjas.nc
+
+cdo timselmean,6,4,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_mjjaso.nc
+
+cdo timselmean,6,5,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_jjason.nc
+
+cdo timselmean,6,6,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_jasond.nc
+
+cdo timselmean,6,7,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_asondj.nc
+
+cdo timselmean,6,8,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_sondjf.nc
+
+cdo timselmean,6,9,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_ondjfm.nc
+
+cdo timselmean,6,10,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_ndjfma.nc
+
+cdo timselmean,6,11,6 ozone_mda8_2030-2069_monmean_padded.nc ozone_mda8_2030-2069_djfmam.nc
