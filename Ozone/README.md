@@ -1,15 +1,7 @@
-# Calculating mortality using PM2.5
+# Calculating mortality for Ozone
 
-Calculate mortalities attributed to PM2.5 from noncommunicable diseases and lower respiratory infections (combined) based on epidemiological cohort studies of long-term exposure to PM2.5
+Calculate mortalities attributed to ozone from cardiovascular (Burnett et al., 2018) and respiratory infections (Malashock et al., 2022) based on epidemiological cohort studies of long-term exposure to ozone.
 
-M = BMR x P x AF
-
-- M = mortality due to PM2.5
-- BMR = baseline mortality rate
-- P = exposed population
-- AF = attributable factor
-
-NOTE: BMR is given as deaths/1000 so P= P/1000
 
 # Methodology 
 
