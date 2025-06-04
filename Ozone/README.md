@@ -14,7 +14,7 @@ Calculate mortalities attributed to ozone from cardiovascular (Burnett et al., 2
 - Choose djmam of the last year and append it to the end --> for y in {1..num_of_years}; do      cdo seltimestep,$(( (y-1)*12+1 ))/$(( (y-1)*12+5 )) ozone_mda8_y1-y2_monmean.nc ozone_mda8_$(( 20y1+y-1 ))_jfmam.nc;  done
 - Copy and make empty monmean_padded that will be filled --> cp  ozone_mda8_y1-y2_monmean.nc ozone_mda8_y1-y2_monmean_padded.nc
 - fill monmean_padded --> cdo cat ozone_mda8_y2_jfmam.nc ozone_mda8_y1-y2_monmean_padded.nc
-- get 6 month averages --> commands in command.txt
+- get 6 month averages --> see Command
 - run python code
 
 
