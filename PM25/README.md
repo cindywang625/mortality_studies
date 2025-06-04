@@ -1,15 +1,6 @@
 # Calculating mortality using PM2.5
 
-Calculate mortalities attributed to PM2.5 from noncommunicable diseases and lower respiratory infections (combined) based on epidemiological cohort studies of long-term exposure to PM2.5
-
-M = BMR x P x AF
-
-- M = mortality due to PM2.5
-- BMR = baseline mortality rate
-- P = exposed population
-- AF = attributable factor
-
-NOTE: BMR is given as deaths/1000 so P= P/1000
+Calculate mortalities attributed to PM2.5 from noncommunicable diseases and lower respiratory infections (Burnett et al., 2018) based on epidemiological cohort studies of long-term exposure to PM2.5.
 
 # Methodology 
 
