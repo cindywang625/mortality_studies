@@ -4,6 +4,11 @@ Calculate mortalities attributed to PM2.5 from noncommunicable diseases and lowe
 
 # Methodology 
 
+## Pre-process data
+- regrid data to appropriate grid
+- ncatted -O -a units,lat,c,c,"degrees north" -a units,lon,c,c,"degrees east" file.nc
+- cdo remapbil,/path_to/ssp2_2020.nc file.nc /new_path/file.nc
+
 ## Input data
 ### provided
 - ssp2_2020.nc = population dataset from SEDAC --> https://www.earthdata.nasa.gov/data/catalog/sedac-ciesin-sedac-gpwv4-natiden-r11-4.11#:~:text=Description,use%20in%20aggregating%20population%20data
