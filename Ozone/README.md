@@ -15,7 +15,7 @@ Calculate mortalities attributed to ozone from cardiovascular (Burnett et al., 2
 - Copy and make empty monmean_padded that will be filled --> cp  ozone_mda8_y1-y2_monmean.nc ozone_mda8_y1-y2_monmean_padded.nc
 - fill monmean_padded --> cdo cat ozone_mda8_y2_jfmam.nc ozone_mda8_y1-y2_monmean_padded.nc
 - get 6 month averages --> see Command
-- run python code (get_osmda8.ipynb)
+- run python code (get_omda8.ipynb)
 
 
 ## Input data
