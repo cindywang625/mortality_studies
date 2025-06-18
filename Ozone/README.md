@@ -39,7 +39,7 @@ Calculate mortalities attributed to ozone from cardiovascular (Burnett et al., 2
 ## Scripts
 
 ### under processing_data (kind of in order)
-- calculate_RR.ipynb
+- calculate_RR_ozone.ipynb
 - deaths_by_grid_ozone.ipynb --> calculates death for each grid cell
 - deaths_by_country_ozone.ipynb --> sums up death for each grid cell within country border and saves it as deaths per country.
 
